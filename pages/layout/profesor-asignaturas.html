@@ -8,11 +8,11 @@
   <!-- Google Font: Source Sans Pro -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
   <!-- Font Awesome Icons -->
-  <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
+  <link rel="stylesheet" href="../../plugins/fontawesome-free/css/all.min.css">
   <!-- IonIcons -->
   <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
   <!-- Theme style -->
-  <link rel="stylesheet" href="dist/css/adminlte.min.css">
+  <link rel="stylesheet" href="../../dist/css/adminlte.min.css">
 </head>
 <!--
 `body` tag options:
@@ -74,7 +74,7 @@
           <a href="#" class="dropdown-item">
             <!-- Message Start -->
             <div class="media">
-              <img src="dist/img/user1-128x128.jpg" alt="User Avatar" class="img-size-50 mr-3 img-circle">
+              <img src="../../dist/img/user1-128x128.jpg" alt="User Avatar" class="img-size-50 mr-3 img-circle">
               <div class="media-body">
                 <h3 class="dropdown-item-title">
                   Brad Diesel
@@ -90,7 +90,7 @@
           <a href="#" class="dropdown-item">
             <!-- Message Start -->
             <div class="media">
-              <img src="dist/img/user8-128x128.jpg" alt="User Avatar" class="img-size-50 img-circle mr-3">
+              <img src="../../dist/img/user8-128x128.jpg" alt="User Avatar" class="img-size-50 img-circle mr-3">
               <div class="media-body">
                 <h3 class="dropdown-item-title">
                   John Pierce
@@ -106,7 +106,7 @@
           <a href="#" class="dropdown-item">
             <!-- Message Start -->
             <div class="media">
-              <img src="dist/img/user3-128x128.jpg" alt="User Avatar" class="img-size-50 img-circle mr-3">
+              <img src="../../dist/img/user3-128x128.jpg" alt="User Avatar" class="img-size-50 img-circle mr-3">
               <div class="media-body">
                 <h3 class="dropdown-item-title">
                   Nora Silvester
@@ -166,8 +166,8 @@
   <!-- Main Sidebar Container -->
   <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
-    <a href="index3.html" class="brand-link">
-      <img src="dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
+    <a href="../../index3.html" class="brand-link">
+      <img src="../../dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
       <span class="brand-text font-weight-light">CONSTRUAPRENDE</span>
     </a>
 
@@ -176,7 +176,7 @@
       <!-- Sidebar user panel (optional) -->
       <div class="user-panel mt-3 pb-3 mb-3 d-flex">
         <div class="image">
-          <img src="dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
+          <img src="../../dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
         </div>
         <div class="info">
           <a href="#" class="d-block">Bryan Cartolin</a>
@@ -210,7 +210,7 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="./index3.html" class="nav-link">
+                <a href="./index.html" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Mi perfil</p>
                 </a>
@@ -235,23 +235,23 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="pages/layout/profesor-asignaturas.html" class="nav-link">
+                <a href="../layout/profesor-asignaturas.html" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Lista de Asignaturas</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="pages/layout/profesor-calificaciones.html" class="nav-link">
+                <a href="../layout/profesor-calificaciones.html" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Ingreso de Calificaciones</p>
                 </a>
-              </li>       
+              </li>  
               <li class="nav-item">
-                <a href="pages/layout/profesor-promedios.html" class="nav-link">
+                <a href="../layout/profesor-promedios.html" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Promedios</p>
                 </a>
-              </li>                     
+              </li>                 
             </ul>
           </li>
 
@@ -265,7 +265,7 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="pages/layout/profesor-asistencia.html" class="nav-link">
+                <a href="../layout/profesor-asistencia.html" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Tomar Asistencia</p>
                 </a>
@@ -301,7 +301,7 @@
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1 class="m-0">MENU DEL DOCENTE</h1>
+            <h1 class="m-0">LISTA DE ASIGNATURAS</h1>
           </div><!-- /.col -->
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
@@ -316,18 +316,39 @@
 
     <!-- Main content -->
     <div class="content">
-      <div class="container-fluid">
+      <div class="container-fluid"></div>
         <div class="row">
-          <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="./dist/img/avatar2.png" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Mi Perfil</h5>
-              <p class="card-text">Hola soy un docente de CONSTRUAPRENDE.</p>
-              <a href="#" class="btn btn-primary">Ver Mi Perfil</a>
+          <div class="col-sm-4">
+            <div class="card">
+              <img src="../../dist/img/lecturaplanos.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title"><b>Lectura de Planos</b></h5>
+                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                <a href="../layout/ver-curso.html" class="btn btn-primary">VISUALIZAR</a>
+              </div>
             </div>
-          </div>          
-        </div>      
-      </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card">
+              <img src="../../dist/img/metrados.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title"><b>Metrados, Costos y Presupuestos</b></h5>
+                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                <a href="#" class="btn btn-primary">VISUALIZAR</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card">
+              <img src="../../dist/img/autocad.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title"><b>AutoCAD 2D y 3D</b></h5>
+                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                <a href="#" class="btn btn-primary">VISUALIZAR</a>
+              </div>
+            </div>
+          </div>
+        </div>
     </div>
   </div>
 
@@ -354,17 +375,17 @@
 <!-- REQUIRED SCRIPTS -->
 
 <!-- jQuery -->
-<script src="plugins/jquery/jquery.min.js"></script>
+<script src="../../plugins/jquery/jquery.min.js"></script>
 <!-- Bootstrap -->
-<script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="../../plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
 <!-- AdminLTE -->
-<script src="dist/js/adminlte.js"></script>
+<script src="../../dist/js/adminlte.js"></script>
 
 <!-- OPTIONAL SCRIPTS -->
-<script src="plugins/chart.js/Chart.min.js"></script>
+<script src="../../plugins/chart.js/Chart.min.js"></script>
 <!-- AdminLTE for demo purposes -->
-<script src="dist/js/demo.js"></script>
+<script src="../../dist/js/demo.js"></script>
 <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
-<script src="dist/js/pages/dashboard3.js"></script>
+<script src="../../dist/js/pages/dashboard3.js"></script>
 </body>
 </html>
