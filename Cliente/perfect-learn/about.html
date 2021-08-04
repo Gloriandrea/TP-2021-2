@@ -155,9 +155,12 @@
 			¿Desea iniciar la matricula en este curso?
 		  </div>
 		  <div class="modal-footer">
-			<button type="button" class="btn btn-success" data-dismiss="modal">Aceptar</button>
+			<button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal1" data-dismiss="modal">Aceptar</button>
+			
 			<button type="button" class="btn btn-dark">Cancelar</button>
 		  </div>
+
+		  
 		</div>
 	  </div>
 	</div>
@@ -518,6 +521,76 @@
 
 
 	<!-- end section -->
+
+	<!--segundo modal su nombre es id=exampleModal1-->
+ 
+
+<div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	<div class="modal-dialog" role="document">
+	  <div class="modal-content">
+		<div class="modal-header">
+		  <h5 class="modal-title" id="exampleModalLabel">Datos del alumno</h5>
+		  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			<span aria-hidden="true">&times;</span>
+		  </button>
+		</div>
+		<div class="modal-body">
+		  <form>
+			<div class="form-group">
+			  <label for="recipient-name" class="col-form-label">Nombres y Apellidos:</label>
+			  <input type="text" class="form-control" id="recipient-name">
+			</div>
+			<div class="form-group">
+				<label for="recipient-name" class="col-form-label">Numero de celular:</label>
+				<input type="text" class="form-control" id="recipient-name">
+			  </div>
+			  <div class="form-group">
+				<label for="recipient-name" class="col-form-label">Correo:</label>
+				<input type="text" class="form-control" id="recipient-name">
+			  </div>
+			<div class="form-group">
+			  <label for="message-text" class="col-form-label">Mensaje opcional:</label>
+			  <textarea class="form-control" id="message-text"></textarea>
+			</div>
+		  </form>
+		</div>
+		<div class="modal-footer">
+			<button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal" data-dismiss="modal">Aceptar</button>
+		  <button type="button" class="btn btn-mdb-color" data-dismiss="modal">Cancelar</button>
+		</div>
+	  </div>
+	</div>
+  </div>
+	<!-- Modal 2 Mensaje ultimo de matricula -->
+<!-- Modal su nombre es id=exampleModal-->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Informamos</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+       
+       <lr> Debe acercarse a realizar el pago de la matricula más el costo del curso</lr>
+	   <p> Direccion: Avenida Arequipa 5946</p>
+       <p>SOLO SE CUENTAN LOS DIAS LABORALES DENTRO DE LAS FECHAS ASIGNADAS, NO SAB-DOM-FERIADOS</p>
+       <p>Una vez realizado el pago se entregaran las credenciales al alumno para que pueda ingresar al curso</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-success" data-dismiss="modal">Enviar</button>
+        <button type="button" class="btn btn-ligth" data-dismiss="modal">Cancelar</button>
+      </div>
+    </div>
+  </div>
+</div>
+ 
+ <!--end modal-->
+
+		<!-- end modal 2 section -->
+
 	<!-- section -->
     <div class="section layout_padding">
         <div class="container">
