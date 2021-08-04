@@ -167,7 +167,7 @@
   <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
     <a href="index3.html" class="brand-link">
-      <img src="dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
+      <img src="dist/img/construlogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" >
       <span class="brand-text font-weight-light">CONSTRUAPRENDE</span>
     </a>
 
@@ -176,7 +176,7 @@
       <!-- Sidebar user panel (optional) -->
       <div class="user-panel mt-3 pb-3 mb-3 d-flex">
         <div class="image">
-          <img src="dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
+          <img src="dist/img/Ingeniero.jpg"  class="img-circle elevation-2" alt="User Image" style="height: 35px;">
         </div>
         <div class="info">
           <a href="#" class="d-block">Bryan Cartolin</a>
@@ -318,17 +318,109 @@
     <div class="content">
       <div class="container-fluid">
         <div class="row">
-          <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="./dist/img/avatar2.png" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Mi Perfil</h5>
-              <p class="card-text">Hola soy un docente de CONSTRUAPRENDE.</p>
-              <a href="#" class="btn btn-primary">Ver Mi Perfil</a>
+         <div class="col-sm-4">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="dist/img/Ingeniero.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Mi Perfil</h5>
+                  <p class="card-text">Hola soy docente de CONSTRUAPRENDE.</p>
+                  <button href="#" class="btn btn-block btn-primary">
+                    <i class="fas fa-smile-wink"></i>
+                    <span>
+                        Cambiar Imagen de perfil
+                    </span>
+                </button>
+                </div>
+              </div>    
+         </div>
+         <div class="col-sm-8">
+            <div class="card" style="padding: 2%">
+                <form>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Nombres Completos</label>
+                                <input type="text" class="form-control" id="exampleInputEmail1" 
+                                aria-describedby="emailHelp" placeholder="Ingresar nombres" value="Bryan">
+                              </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Apellidos</label>
+                                <input type="text" class="form-control" id="exampleInputEmail1"
+                                value="Cartolin" aria-describedby="emailHelp" placeholder="Ingresar Apellidos">
+                              </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Correo Electronico</label>
+                                <input type="text" class="form-control" id="exampleInputEmail1" 
+                                value="bryan.c@construaprendo.edu.pe" aria-describedby="emailHelp" placeholder="Ingresar  Correo">
+                              </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Fecha Nac.</label>
+                                <input type="text" class="form-control" id="exampleInputEmail1" 
+                                value="11 Ago. de 1994" aria-describedby="emailHelp" placeholder="Ingresar Fecha Nac.">
+                              </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Direccion de domicili</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                                >Av. Javier Prado Este - San Isidro</textarea>
+                              </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Sexo</label>
+                                <select class="form-control" id="exampleFormControlSelect1">
+                                    <option value="1">Masculino</option>
+                                    <option value="2">Femenino</option>
+                                  </select>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Titulo/Especialidad</label>
+                                <input type="text" class="form-control" id="exampleInputEmail1" 
+                                value="Ingeniero Civil" aria-describedby="emailHelp" placeholder="Ingresar Fecha Nac.">
+                              </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <button class="btn btn-block btn-warning">
+                                <i class="fas fa-edit"></i>
+                                <spam>Editar Datos</spam>
+                            </button>
+                        </div>
+                        <div class="col-sm-6">
+                            <button class="btn btn-block btn-danger">
+                                <i class="fas fa-trash"></i>
+                                <spam>Resetear Datos</spam>
+                            </button>
+                        </div>
+                    </div>
+                </form>
+
             </div>
-          </div>          
+         </div>
+          
+          
         </div>      
       </div>
-    </div>
+  
+ 
+ 
+  </div>
   </div>
 
 
